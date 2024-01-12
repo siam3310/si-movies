@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SIMOVIES</title>
+   <link rel="icon" type="image/x-icon" href="https://i.ibb.co/k8qFpSm/simoviesfavicon.png">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMOVIES </title>
+    <!-- CSS -->
+    <!-- FOR SEARCH ICON Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- NAV -->
+    <nav> 
+        <a class="logo" href="/" style="none" ><span class="mark">SI</span>Movies</a>
+        <form id="searchForm">
+            <input type="text" id="search" placeholder="Search" class="search_input">
+            <div class="search_icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </form>
+    </nav>
+    <!-- MOVIES LIST -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <div class="list">
+
+    <ul class="movie_list_ul" id="movieUl">
+    
+    <h3>
+ <li class="movie_list_item"> <a style="text-decoration: none" href="https://m.promovie.repl.co/player.html?player=fluidplayer&provider=rand&format=video%2Fmp4&link=https%3A%2F%2Fm.promovie.workers.dev%2F0%3A%2FFukrey%25203%2520%282023%29%2520%28HD%29%2FFukrey.3._2023_.Hindi.1080p.mp4">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzc0NzQ1NGMtMDhmNC00NzQ1LWFjNzctMjlkNGQ0MmE4Y2I1XkEyXkFqcGdeQXVyMTU0ODI1NTA2._V1_.jpg" alt="Fukrey 3"> 
+            <div class="movie_info">
+                <h3>Fukrey 3</h3>
+                <span class="green">1080P</span>
+            </div> </a>
+        </li> </h3>
+      <h3>   <li class="movie_list_item"> <a style="text-decoration: none" href="https://m.promovie.repl.co/player.html?player=fluidplayer&provider=rand&format=video%2Fmp4&link=https%3A%2F%2Fm.promovie.workers.dev%2F0%3A%2FJAWAN%2520HD%2520Netflix%2520%2FJawan.%282023%29.Hindi.1080p.mp4">
+            <img src="https://www.bhmpics.com/downloads/jawaan-movie-Wallpapers/1.jawan.jpeg" alt="Jawan 1080P"> 
+            <div class="movie_info">
+                <h3>Jawan</h3>
+                <span class="green">1080P</span> 
+            </div> </a>
+        </li> </h3>
+
+       <h3>  <li class="movie_list_item"> <a style="text-decoration: none" href="https://m.promovie.repl.co/player.html?player=fluidplayer&provider=rand&format=video%2Fmp4&link=https://m.promovie.workers.dev/0:/JAWAN%20HD%20Netflix%20/Jawan.(2023).Hindi.720p.mp4">
+            <img src="https://www.bhmpics.com/downloads/jawaan-movie-Wallpapers/1.jawan.jpeg" alt="Jawan-720P"> 
+            <div class="movie_info">
+                <h3>Jawan</h3>
+                <span class="green">720P</span>
+            </div> </a>
+        </li> </h3>
+
+
+    </ul>
+    </div>
+<!-- pop up -->
+
+
+
+    <!-- FOOTER -->
+    <br>
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-9e6ddbd4-0452-46d0-b2e1-1c32d8f8046e"></div>
+    <footer>
+        <p class="copyright-text">© 2023 PROMOVIE  <br> Some Rights Reserved.Designed by <span class="mark">Admin</span></p>
+        <p class="copyright-text"> </p>
+    </footer>
+    <!-- JS -->
+
+
+
+
+    <style>
+       @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Yusei Magic", sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* ScrollBar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: none;
+  background-color: #f8f8f8;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #0d6efd;
+  outline: 0px solid transparent;
+  border-radius: 5px;
+}
+img {
+  width: 100%;
+}
+h3 {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mark {
+  color: #0d6efd;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* NAV */
+nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 0px 0px;
+}
+.logo {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+form {
+  position: relative;-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.search_input {
+  width: 550px;
+  padding: 15px 58px 15px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 30px;
+  border: 0px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+::-moz-placeholder {
+  text-transform: uppercase;
+}
+.search_input:focus {
+  border: 0;
+  outline: 0;
+  
+}
+.search_icon {
+  position: absolute;
+  top: 10px;
+  right: 24px;
+}
+.search_icon img {
+  width: 20px;
+}
+
+/* Movies List */
+.movie_list_ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
+  padding: 80px 80px;
+  list-style: none;
+}
+.movie_list_item {
+  position: relative;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.movie_list_item img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.movie_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+.movie_info span {
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 5px;
+}
+.movie_info span.green {
+  color: rgba(144, 238, 144);
+  background: rgba(144, 238, 144, 0.2);
+}
+.movie_info span.orange {
+  color: rgba(255, 165, 0);
+  background: rgba(255, 165, 0, 0.2);
+}
+.movie_info span.red {
+  color: rgba(255, 0, 0);
+  background: rgba(255, 0, 0, 0.2);
+}
+
+.overview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 100%;
+  padding: 15px 30px;
+  background-color: #fff;
+  text-align: center;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
+.movie_list_item:hover .overview {
+  transform: translateY(0%);
+}
+.overview h3 {
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+footer p {
+  font-size: 18px;
+}
+
+
+/* RESPONSIVE */
+
+/* For Mobile */
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 15px 0px 0px;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .search_input {
+    width: 100%;
+  }
+  .search_icon {
+    top: 12px;
+  }
+  .movie_list_ul {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    padding: 40px 15px;
+  }
+  .movie_list_item img {
+    height: auto;
+  }
+}
+
+/* For Tab */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .movie_list_ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .movie_list_item img {
+    height: auto;
+  }
+}
+
+/* For Big Screens */
+@media screen and (min-width: 1599px) {
+  .movie_list_ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .movie_list_item img {
+    height: 500px;
+  }
+}
+    </style>
+
+
+<script>$.expr[":"].icontains = $.expr.createPseudo(function(arg) {
+    return function( elem ) {
+        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+    };
+});
+
+
+$('#search').keyup(function(){
+  var query = $(this).val();
+  
+  $('.list h3:not(:icontains('+ query +'))').slideUp(100);
+  $('.list h3:not(:icontains('+ query +'))').next('div').slideUp(100);
+  $('.list h3:icontains('+ query +')').slideDown(100);
+  $('.list h3:icontains('+ query +')').next('div').slideDown(100);
+  
+  
+  
+});
+
+</script>
+ </body>
+
+</html>
